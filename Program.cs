@@ -13,11 +13,16 @@ namespace ConsoleApp1
             Point s = new Point(0, 0);
             Point g = new Point(l-1, l-1);
 
+
+            p[5, 0] = -1;
+            p[5, 1] = -1;
+            p[5, 2] = -1;
+            p[5, 3] = -1;
             for (int i = 0; i < l; i++)
             {
                 for (int j = 0; j < l; j++)
                 {
-                    p[i, j] = 0;
+            //        p[i, j] = 0;
                 }
             }
 
